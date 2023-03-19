@@ -11,7 +11,7 @@ for(int i = 0; i < size; i++){
     scanf("%d", &arr1[i]);
 }
     // Copy elements of arr1 into arr2
-    for (int i = 0; i < 5; i++) {
+    for (int i = 0; i < size; i++) {
         arr2[i] = arr1[i];
     }
     // Print elements of arr2
