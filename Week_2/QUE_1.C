@@ -1,4 +1,5 @@
 #include <stdio.h>
+int repeat(int arr[], int target);
 void main(){
 printf("Enter size of your 1st Array : ");
 int size;
@@ -11,11 +12,14 @@ for(int i = 0; i < size; i++){
 printf("Enter target Number : ");
 int target;
 scanf("%d", &target);
-int sum = 0;
-for(int i = 0; i < size; i++){
+int ans = repeat(arr, target);
+printf("Occurences of %d in your array is %d ", target, ans);
+}
+int repeat(int arr[], int target){
+    int sum = 0;
+for(int i = 0; i < sizeof(arr); i++){
     if(arr[i] == target){
         sum++;
     }
-}
-printf("Occurences of %d in your array is %d ", target, sum);
+}return sum;
 }
