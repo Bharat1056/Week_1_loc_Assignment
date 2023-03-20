@@ -24,10 +24,10 @@ for(int i = 0; i < size2; i++){
 int size = size1+size2;
 int newArray[size];
 for(int i = 0; i < size; i++){
-  if(i < size){
+  if(i < size1){
     newArray[i] = Array1[i];
   }else{
-    newArray[i] = Array2[i];
+    newArray[i] = Array2[i-size1];
   }
 }
 
