@@ -1,7 +1,7 @@
 q5    a. (i) k is a pointer to a pointer to a pointer to a char. 
       b.(iii) the output will be 6. 
   
- q6    a. structure elements can be initialize at the time of declaration. 
+ q6    b. structure elements cannot be initialize at the time of declaration. 
   
  q7    The size of a C structure is determined by  
        the total size of its individual members, along with  
