@@ -7,7 +7,7 @@ void countFrequency(char *str) {
     int len = strlen(str);
 
     // Counting frequency of each character
-    for (int i = 0; i < len; i++) {
+    for (int i = 0; i < len-1; i++) {
         freq[str[i]]++;
     }
 
