@@ -5,7 +5,7 @@ void removeChar(char *str, char c) {
     int j = 0;
     int len = strlen(str);
 
-    for (int i = 0; i < len; i++) {
+    for (int i = 0; i < len-1; i++) {
         if (str[i] != c) {
             str[j++] = str[i];
         }
